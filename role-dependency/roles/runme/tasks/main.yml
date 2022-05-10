@@ -1,0 +1,5 @@
+---
+- name: do stuff that calls handler
+  command:
+    cmd: ls
+  notify: my_nonlocal_handler

@@ -1,0 +1,4 @@
+---
+- name: my_nonlocal_handler
+  debug:
+    msg: "I am the non-local handler"

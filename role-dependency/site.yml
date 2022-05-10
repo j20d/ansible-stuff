@@ -1,0 +1,8 @@
+---
+- name: call runme
+  hosts: localhost
+  gather_facts: false
+  tags:
+    - always
+  roles:
+    - runme
